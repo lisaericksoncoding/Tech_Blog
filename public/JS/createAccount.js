@@ -1,4 +1,4 @@
-const createAccountHandler = async (event) => {
+const createAccountFormHandler = async (event) => {
     event.preventDefault();
 
     const userEmail = document.querySelector('#email-create').value.trim();
@@ -25,4 +25,4 @@ const createAccountHandler = async (event) => {
     }
 }
 
-document.querySelector('#createAccountForm').addEventListener('submit', createAccountHandler);
+document.querySelector('#createAccountForm').addEventListener('submit', createAccountFormHandler);

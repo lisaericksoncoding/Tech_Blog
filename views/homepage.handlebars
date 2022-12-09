@@ -1,1 +1,6 @@
 {{#if posts.length}}
+{{#each posts as |post| }}
+<p>
+    {{post-info post}}
+</p>
+    {{/each}}
